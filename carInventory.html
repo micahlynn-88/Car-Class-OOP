@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Car Inventory</h1>
+
+    <!--Form Below-->
+    <form id=" "carForm>
+        <label for="make">Car Make: </label>
+        <input type="text" id="name" required>
+
+        <label for="model">Car Model: </label>
+        <input type="text" id="model" required>
+
+        <label for="year">Car Year: </label>
+        <input type="number" id="year" required>
+
+        <label for="price">Car Price: </label>
+        <input type="number" id="price" required>
+
+        <button type="button" onclick="addCar()">Add Car</button>
+    </form>
+
+    <div id="carList"></div>
+
+    <button type="button" onclick="showTotalPrice()">Show Total of Car Prices</button>
+
+
+    
+    <!--Create forms that ask for the car's make, model, year, and price.-->
+    <!--Add button to submit the car details, adding that car to the inventory.-->
+    <!--Display updated list of cars after each car is added.-->
+    <!--Add a button to calculate and display the total price of all cars in the inventory after depreciation.-->
+    <!---->
+
+    <!--script is used to connect the code to this HTML site-->
+    <script src="carclass.js"></script>
+</body>
+</html>
